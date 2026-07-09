@@ -229,6 +229,89 @@ body {
 }
 
 /* Pricing Section */
+
+/* hackathon */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hackathon {
+    padding: 90px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.section-title p {
+    max-width: 700px;
+    margin: auto;
+    color: #6b7280;
+    font-size: 18px;
+}
+
+.hackathon-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.hack-card {
+    flex: 1;
+    min-width: 280px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 35px 30px;
+    text-align: center;
+}
+
+.hack-card:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hack-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1f2937;
+}
+
+.hack-card p {
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+.hackathon-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hackathon-btn button {
+    padding: 15px 40px;
+    font-size: 18px;
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* hackathon */
 /* footer section */
 .footer-section {
     margin-top: 20px;
