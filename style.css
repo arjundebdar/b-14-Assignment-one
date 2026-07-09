@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Saira", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+/* common uses */
+
+.register-btn {
+    padding: 10px 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* common uses */
+
+/* navition-section */
+
+.header .nav-bar {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-manu {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar-manu .nav-items .nav-link {
+    text-decoration: none;
+}
+
+
+/* navition-section */
+
+/* banner section */
+
+.hero-banner {
+    margin-top: 50px;
+    padding: 50px;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("./assets/banner.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    overlay: unset;
+}
+
+.banner-overlay {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.banner-text h2 {
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+}
+
+.banner-text p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+/* banner section */
+
+/* Speakers Section */
+.Speakers-Section {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.Speakers-Section>h2 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.speaker-cards {
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.speaker-cards .speaker {
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 10px;
+}
+
+.speaker-cards img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.speaker-cards .speaker-cards-text-section {
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.speaker-cards h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.speaker-cards p {
+    color: gray;
+}
+
+.speaker-cards p a {
+    color: rgb(9, 255, 255);
+    text-decoration: none;
+}
+
+/* Speakers Section */
+
+/* Pricing Section */
+
+
+.pricing-section>h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.pricing-section>p {
+    text-align: center;
+}
+
+.pricing-plan {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-plan .standard {
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.pricing-plan .standard ul {
+    margin-left: 10px;
+}
+
+.pricing-plan .standard a {
+    text-decoration: none;
+    border: 1px solid gray;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* pro */
+.pricing-plan .pro {
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.pricing-plan .pro ul {
+    margin-left: 10px;
+}
+
+.pricing-plan .pro a {
+    text-decoration: none;
+    background-color: blue;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+/* team */
+.pricing-plan .team {
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.pricing-plan .team ul {
+    margin-left: 10px;
+}
+
+.pricing-plan .team a {
+    text-decoration: none;
+    border: 1px solid gray;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Pricing Section */
