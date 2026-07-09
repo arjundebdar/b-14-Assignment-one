@@ -229,3 +229,35 @@ body {
 }
 
 /* Pricing Section */
+/* footer section */
+.footer-section {
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.footer-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-right-section a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.footer-right-section img {
+    max-height: 30px;
+}
+
+.footer-section p {
+    text-align: center;
+}
+
+.footer-section hr {
+    margin-top: 20px;
+}
+
+/* footer section */
