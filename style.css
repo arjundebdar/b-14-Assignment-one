@@ -1,25 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Saira", sans-serif;
     box-sizing: border-box;
-}
-
-body {
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 25px;
+    font-family: "Saira", sans-serif;
 }
 
 /* common uses */
-
-.register-btn {
-    padding: 10px 40px;
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     background-color: blue;
     color: white;
-    border: none;
-    font-size: 20px;
-    border-radius: 10px;
+    font-weight: 550;
     cursor: pointer;
 }
 
@@ -28,16 +22,22 @@ body {
 /* navition-section */
 
 .header .nav-bar {
+    width: 90%;
+    margin: 0 auto;
     padding-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 
+.nav-logo {
+    flex: 1;
+}
+
 .navbar-manu {
+    flex: 1;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     gap: 25px;
     list-style: none;
     font-size: 20px;
@@ -47,20 +47,28 @@ body {
     text-decoration: none;
 }
 
+.nav-bar .nav-btn {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* navition-section */
 
 /* banner section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .hero-banner {
+    width: 100%;
     margin-top: 50px;
     padding: 50px;
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("./assets/banner.jpg");
     background-size: cover;
-    min-height: 100vh;
-    background-position: center;
-    overlay: unset;
 }
+
 
 .banner-overlay {
     min-height: 100vh;
@@ -87,6 +95,8 @@ body {
 
 /* Speakers Section */
 .Speakers-Section {
+    width: 80%;
+    margin: 50px auto 80px;
     margin-top: 50px;
     margin-bottom: 80px;
 }
@@ -236,62 +246,53 @@ body {
     margin: auto;
 }
 
-.hackathon {
-    padding: 90px 0;
-}
-
 .section-title {
     text-align: center;
-    margin-bottom: 60px;
+    margin: 50px 80px;
 }
 
 .section-title h2 {
-    font-size: 42px;
-    color: black;
-    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .section-title p {
-    max-width: 700px;
+    max-width: 70%;
     margin: auto;
-    color: #6b7280;
-    font-size: 18px;
 }
 
 .hackathon-cards {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
 }
 
-.hack-card {
+.hackathon-cards .hack-card {
     flex: 1;
-    min-width: 280px;
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-radius: 18px;
-    padding: 35px 30px;
+    max-width: 300px;
     text-align: center;
+    padding: 30px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
-.hack-card:hover {
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+.hackathon-cards .hack-card:hover {
+    transform: scale(1.01);
 }
 
-.icon {
-    font-size: 48px;
+.hack-card>div {
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
 .hack-card h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #1f2937;
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .hack-card p {
-    color: #6b7280;
+    font-size: 18px;
     line-height: 1.7;
 }
 
@@ -300,29 +301,26 @@ body {
     margin-top: 50px;
 }
 
-.hackathon-btn button {
-    padding: 15px 40px;
-    font-size: 18px;
-    background: #2563eb;
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-
 /* hackathon */
 /* footer section */
 .footer-section {
-    margin-top: 20px;
-    padding: 20px;
-
+    margin: 0 auto;
+    padding: 40px;
 }
 
 .footer-content {
-    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-image {
+    flex: 1;
+}
+
+.footer-right-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -332,15 +330,12 @@ body {
 }
 
 .footer-right-section img {
-    max-height: 30px;
+    max-height: 20px;
 }
 
 .footer-section p {
+    margin-top: 10px;
     text-align: center;
-}
-
-.footer-section hr {
-    margin-top: 20px;
 }
 
 /* footer section */
